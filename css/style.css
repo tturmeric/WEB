@@ -2,6 +2,7 @@ body {
     color: #122947;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    --color-footer:#959595;
 }
 
 h1 {
@@ -33,7 +34,7 @@ p {
 
 
 footer {
-    color: #959595;
+    color: var(--color-footer);
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 12px;
     font-style: normal;
