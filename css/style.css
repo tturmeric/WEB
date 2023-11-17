@@ -6,11 +6,12 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     --color-footer:#959595;
+    --color-footerback:#F4F1ED;
 }
 
 h1 {
     text-align: center;
-    font-size: 4,2rem;
+    font-size: 4.2rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -18,7 +19,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 2,8rem;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 500;
     line-height: 125%; 
@@ -30,7 +31,7 @@ p {
 .p {
     
     text-align: center;
-    font-size: 1,6rem;
+    font-size: 1.6rem;
     font-style: normal;
     line-height: 140%; 
 }
@@ -38,7 +39,7 @@ p {
 .p1{
     color: var(--color-footer);
     text-align: center;
-    font-size: 1,3rem;
+    font-size: 1.3rem;
     font-style: normal;
     line-height: 145%;
 }
@@ -46,7 +47,7 @@ p {
 footer {
     color: var(--color-footer);
     font-family: 'M PLUS 1p', sans-serif;
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     font-style: normal;
     line-height: normal;
 }
@@ -54,34 +55,33 @@ footer {
 a{
     font-family: 'M PLUS 1p', sans-serif;
     text-decoration: none;
+    color: #122947;
 
 }
 
 .a1 {
-    display: block;
     text-align:center;
-    font-size: 1,4rem;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
     line-height: 140%; 
 
-    /*border-radius: 0,2px;
-    border: 0,1px;
+    border-radius: 0.2rem;
+    border: 0.1rem;
     border-style:  solid;
     border-color:#B3BAC1;
-    flex-shrink: 0;
-    width: 132px;
-    height: 40px;
-    padding-left: 2,8rem;
-    padding-top: 1,3rem;
-    padding-bottom: 1,5rem;
-    padding-right: 2,8rem;*/
+    width: 13.2rem;
+    height: 4rem;
+    padding-left: 2.8rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.5rem;
+    padding-right: 2.8rem;
 }
 
 .a2 {
     display: block; 
     text-align:center;
-    font-size: 1,3rem;
+    font-size: 1.3rem;
     font-style: normal;
     line-height: 145%; 
 }
@@ -89,21 +89,21 @@ a{
 .a3 {
     display: block; 
     text-align:center;
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 500;
     line-height: 140%;
 }
  
 .a4 {
-    font-size: 1,4rem;
+    font-size: 1.4rem;
     font-style: normal;
     line-height: normal;
 }
 
 h3 {
     text-align:center;
-    font-size: 1,6rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     line-height: 145%; 
