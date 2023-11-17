@@ -64,6 +64,9 @@ a{
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 19.6px */
+
+    background-color: white;
+    padding: 13,2rem 4rem;
 }
 
 .a2 {
@@ -116,3 +119,4 @@ h3 {
     justify-content: center;
     gap: 3rem;
 }
+
