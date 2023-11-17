@@ -21,7 +21,7 @@ h2 {
     font-size: 2,8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 125%; /* 35px */
+    line-height: 125%; 
 }
 p {
     font-family: 'M PLUS 1p', sans-serif;
@@ -32,7 +32,7 @@ p {
     text-align: center;
     font-size: 1,6rem;
     font-style: normal;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%; 
 }
 
 .p1{
@@ -58,15 +58,24 @@ a{
 }
 
 .a1 {
-    display: block; 
+
     text-align:center;
     font-size: 1,4rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; /* 19.6px */
+    line-height: 140%; 
 
-    background-color: white;
-    padding: 13,2rem 4rem;
+    border-radius: 0,2px;
+    border: 0,1px;
+    border-style:  solid;
+    border-color:#B3BAC1;
+    flex-shrink: 0;
+    width: 132px;
+    height: 40px;
+    padding-left: 2,8rem;
+    padding-top: 1,3rem;
+    padding-bottom: 1,5rem;
+    padding-right: 2,8rem;
 }
 
 .a2 {
@@ -74,7 +83,7 @@ a{
     text-align:center;
     font-size: 1,3rem;
     font-style: normal;
-    line-height: 145%; /* 18.85px */
+    line-height: 145%; 
 }
 
 .a3 {
@@ -83,7 +92,7 @@ a{
     font-size: 1,2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; /* 16.8px */
+    line-height: 140%;
 }
  
 .a4 {
@@ -97,7 +106,7 @@ h3 {
     font-size: 1,6rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 145%; /* 23.2px */
+    line-height: 145%; 
 }
 
 .img1{
