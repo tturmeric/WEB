@@ -7,6 +7,7 @@ body {
     font-weight: 400;
     --color-footer:#959595;
     --color-footerback:#F4F1ED;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -46,10 +47,14 @@ p {
 
 footer {
     color: var(--color-footer);
+    background-color: var(--color-footerback);
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 1.2rem;
     font-style: normal;
     line-height: normal;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.6rem;
 }
 
 a{
@@ -128,5 +133,14 @@ h3 {
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
+    padding-top: 3.5rem;
+    
 }
 
+.contact{
+    background-color: var(--color-footerback);
+    padding-top: 6rem;
+    padding-bottom: 6.1rem;
+    padding-left: 3.1rem;
+    padding-right: 3.3rem;
+}
