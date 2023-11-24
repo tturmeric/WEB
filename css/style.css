@@ -65,6 +65,7 @@ a{
 }
 
 .a1 {
+    display: block;
     text-align:center;
     font-size: 1.4rem;
     font-style: normal;
@@ -76,13 +77,12 @@ a{
     border-style:  solid;
     border-color:#B3BAC1;
     width: 13.2rem;
-    height: 4rem;
     padding-left: 2.8rem;
     padding-top: 1.3rem;
     padding-bottom: 1.5rem;
     padding-right: 2.8rem;
+    margin: 3.5rem 9.4rem;
 }
-
 
 .a2 {
     display: block; 
@@ -146,7 +146,7 @@ h3 {
 }
 
 .container1 {
-    max-width: 100%;
+    max-width: 32rem;
     margin-left: auto;
     margin-right: auto;
 }
