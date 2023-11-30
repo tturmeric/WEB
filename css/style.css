@@ -153,3 +153,9 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+.bq{
+    background-image: url("img/_11zon (10)");
+    width: 34,6rem;
+    height: 32rem;
+    background-size: cover;
+}
