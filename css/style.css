@@ -144,8 +144,7 @@ h3 {
 .section2{
     display: inline-flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 8.1rem;
+    justify-content: space-between;
     padding-bottom: 6.2rem;
 }
 .contact{
