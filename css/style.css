@@ -151,6 +151,20 @@ h3 {
     padding-right: 5.4rem;
 }
 
+.contact2{
+    padding-top: 6.2rem;
+    padding-bottom: 5.9rem;
+    padding-left: 3.7rem;
+    padding-right: 4.1rem;
+}
+
+.contact3{
+    padding-top: 8.5rem;
+    padding-bottom: 8rem;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+}
+
 .container1 {
     max-width: 100%;
     margin-left: auto;
@@ -164,8 +178,10 @@ h3 {
 }
 
 .section2{
+    height: 290;
     display: inline-flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    align-items:stretch;
     padding-top: 5rem;
     
 }
