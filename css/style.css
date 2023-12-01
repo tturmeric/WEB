@@ -8,6 +8,9 @@ body {
     --color-footer:#959595;
     --color-footerback:#F4F1ED;
     box-sizing: border-box;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -61,6 +64,9 @@ a{
     font-family: 'M PLUS 1p', sans-serif;
     text-decoration: none;
     color: #122947;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .a1 {
@@ -80,7 +86,8 @@ a{
     padding-top: 1.3rem;
     padding-bottom: 1.5rem;
     padding-right: 2.8rem;
-    margin: 3.5rem 9.4rem;
+    margin-bottom: 3.5rem;
+
 }
 
 .a2 {
@@ -172,11 +179,7 @@ h3 {
 }
 
 
-.container1 {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .bq{
     background-image: url("img\_11zon (10).jpg");
     width: 34.6rem;
