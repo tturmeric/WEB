@@ -162,3 +162,10 @@ h3 {
     height: 32rem;
     background-size: cover;
 }
+
+.section2{
+    display: inline-flex;
+    flex-flow: row wrap;
+    padding-top: 5rem;
+    
+}
