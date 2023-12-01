@@ -61,10 +61,6 @@ a{
     font-family: 'M PLUS 1p', sans-serif;
     text-decoration: none;
     color: #122947;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .a1 {
@@ -147,6 +143,13 @@ h3 {
     padding-left: 3.1rem;
     padding-right: 3.3rem;
 }
+.contact1{
+    background-color: var(--color-footerback);
+    padding-top: 4.2rem;
+    padding-bottom: 11rem;
+    padding-left: 5.4rem;
+    padding-right: 5.4rem;
+}
 
 .container1 {
     max-width: 100%;
@@ -154,7 +157,7 @@ h3 {
     margin-right: auto;
 }
 .bq{
-    background-image: url("img/_11zon (10)");
+    background-image: url("img\_11zon (10).jpg");
     width: 34,6rem;
     height: 32rem;
     background-size: cover;
