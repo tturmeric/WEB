@@ -140,9 +140,14 @@ h3 {
     justify-content: center;
     gap: 3rem;
     padding-top: 3.5rem;
-    
 }
-
+.section2{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8.1rem;
+    padding-bottom: 6.2rem;
+}
 .contact{
     background-color: var(--color-footerback);
     padding-top: 6rem;
@@ -181,7 +186,7 @@ h3 {
 
 
 .bq{
-    background-image: url("img\_11zon (10).jpg");
+    background-image: url ("img\_11zon (10).jpg");
     width: 34.6rem;
     height: 32rem;
     background-size: cover;
