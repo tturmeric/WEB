@@ -199,7 +199,7 @@ h3 {
 }
 
 .bq{
-    background-image: url("../img/_11zon (10).png");
+    background-image: url("../img/_11zon (10).jpg");
     background-size: cover;
 }
 
@@ -212,4 +212,9 @@ h3 {
 .back{
     background-image: url("../img/_11zon (14).png");
     background-size: cover;
+}
+.cont{
+    position: relative; 
+    bottom: 150; 
+    left: 1000;
 }
