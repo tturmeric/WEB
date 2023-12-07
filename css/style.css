@@ -211,5 +211,7 @@ h3 {
     height: 1.6rem;
 }
 .back{
-    background-image: url("../");
+    background-image: url("../img/_11zon (14).png");
+    background-size: cover;
+    height: 54.6rem;
 }
