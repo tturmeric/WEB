@@ -26,7 +26,7 @@ h2 {
     font-size: 2.8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 125%; 
+    line-height: 3.5rem; 
 }
 p {
     font-family: 'M PLUS 1p', sans-serif;
@@ -37,7 +37,7 @@ p {
     text-align: center;
     font-size: 1.6rem;
     font-style: normal;
-    line-height: 140%; 
+    line-height: 2.24rem; 
 }
 
 .p1{
@@ -45,7 +45,7 @@ p {
     text-align: center;
     font-size: 1.3rem;
     font-style: normal;
-    line-height: 145%;
+    line-height: 2.32rem;
 }
 
 footer {
@@ -75,7 +75,7 @@ a{
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; 
+    line-height: 2.24rem; 
 
     border-radius: 0.2rem;
     border: 0.1rem;
@@ -95,7 +95,7 @@ a{
     text-align:center;
     font-size: 1.3rem;
     font-style: normal;
-    line-height: 145%; 
+    line-height: 2.32rem; 
 }
 
 .a3 {
@@ -104,7 +104,7 @@ a{
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%;
+    line-height: 2.24rem;
 }
  
 .a4 {
@@ -118,7 +118,7 @@ h3 {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 145%; 
+    line-height: 2.32rem; 
 }
 
 .img1{
@@ -144,8 +144,8 @@ h3 {
 .section2{
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 6.2rem;
+    justify-content: flex-start;
+    gap: 4.4rem;
 }
 .contact{
     background-color: var(--color-footerback);
@@ -183,8 +183,8 @@ h3 {
 }
 
 .contact5{
-padding-top: 4.6rem;
-padding-bottom: 6rem;
+    padding-top: 4.6rem;
+    padding-bottom: 6rem;
 }
 
 .bq{
