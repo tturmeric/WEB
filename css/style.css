@@ -47,6 +47,12 @@ p {
     font-style: normal;
     line-height: 2.32rem;
 }
+.p2{
+    text-align: left;
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: 2.24rem; 
+}
 
 footer {
     color: var(--color-footer);
