@@ -199,9 +199,8 @@ h3 {
 }
 
 .bq{
-    background-image: url("../img/_11zon (10).jpg");
+    background-image: url("../img/_11zon (10).png");
     background-size: cover;
-    height: 34.6rem;
 }
 
 .head{
@@ -213,5 +212,4 @@ h3 {
 .back{
     background-image: url("../img/_11zon (14).png");
     background-size: cover;
-    height: 54.6rem;
 }
