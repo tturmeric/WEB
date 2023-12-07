@@ -153,6 +153,11 @@ h3 {
     justify-content: flex-start;
     gap: 4.4rem;
 }
+.section3{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .contact{
     background-color: var(--color-footerback);
     padding-top: 6rem;
@@ -199,3 +204,9 @@ h3 {
     height: 34.6rem;
 }
 
+.head{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: start;
+    height: 1.6rem;
+}
