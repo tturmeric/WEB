@@ -164,6 +164,8 @@ h3 {
     padding-bottom: 6.1rem;
     padding-left: 3.1rem;
     padding-right: 3.3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 .contact1{
     background-color: var(--color-footerback);
@@ -198,8 +200,13 @@ h3 {
     padding-bottom: 6rem;
 }
 
+.contact6{
+    margin-top: 8.4rem;
+    margin-bottom: 8rem;
+}
+
 .bq{
-    background-image: url("../img/_11zon (10).jpg");
+    background-image: url("../img/_11zon (10).png");
     background-size: cover;
 }
 
@@ -214,7 +221,7 @@ h3 {
     background-size: cover;
 }
 .cont{
-    position: relative; 
-    bottom: 150; 
-    left: 1000;
+    position: absolute;
+    top: 387%;
+    left: 50%;
 }
