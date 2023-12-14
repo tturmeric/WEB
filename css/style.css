@@ -206,8 +206,9 @@ h3 {
 }
 
 .bq{
-    background-image: url("../img/_11zon (10).png");
+    background-image: url("../img/_11zon (10).jpg");
     background-size: cover;
+    background-position-y: bottom ;
 }
 
 .head{
