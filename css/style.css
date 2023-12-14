@@ -213,6 +213,10 @@ h3 {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+hr{
+    margin-top: 5rem;
+    margin-bottom: 2.8rem;
+}
 .bq{
     background-image: url("../img/_11zon (10).jpg");
     background-size: cover;
