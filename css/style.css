@@ -136,7 +136,12 @@ h3 {
     font-weight: 500;
     line-height: 2.32rem; 
 }
-
+img{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .img1{
     width: 200;
 }
@@ -248,7 +253,11 @@ hr{
     top: 40%;
     left: 50%;
 }
-
+.cont1{
+    position: absolute;
+    top: 57%;
+    left: 45%;
+}
 .line{
     color: var(--color-footer);
 }
