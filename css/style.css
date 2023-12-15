@@ -5,7 +5,10 @@ header{
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3.1rem;
+
+    background-image:url("../img/_11zon (14).png") ;
+    background-size: cover;
+    background-position-y: top ;
 }
 body {
     color: #122947;
