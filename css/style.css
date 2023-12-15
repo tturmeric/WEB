@@ -263,9 +263,9 @@ hr{
     color: var(--color-footer);
 }
 .wrapper {
-    max-width: 1170px;
+    max-width: 117rem;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
