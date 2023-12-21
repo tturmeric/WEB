@@ -48,35 +48,36 @@
   
    <main>
       <form class="contact-form" action="https://httpbin.org/post" method="post">
-         <div>
+         <h2> Регистрация</h2>
+         <div class="c1">
             <label for="name"> ФИ* </label>
             <input type="text" id="name" name="name" placeholder="Иванов Иван" required>
          </div>
 
-         <div>
+         <div class="c1">
             <label for="date"> Дата рождения* </label>
             <input type="date" id="date" name="date" required>
          </div>
 
-         <div>
+         <div class="c1">
             <label for="sex"> Пол </label>
-            <input type="radio" id="sex" name="sex" value="women" required> Жен
-            <input type="radio" id="sex1" name="sex" value="men" required> Муж
+            <input type="radio" id="sex" name="sex" value="women" > Жен
+            <input type="radio" id="sex1" name="sex" value="men" > Муж
       
          </div>
       
-         <div>
+         <div class="c1">
             <label for="password"> Пароль* </label>
             <input type="password" id="password" name="password" placeholder="C6255c_v" required>
 
          </div>
 
-         <div>
+         <div class="c1">
             <label for="email"> E-mail </label>
-            <input type="email" id="email" name="email" placeholder="ivanovivan@yandex.ru" required >
+            <input type="email" id="email" name="email" placeholder="ivanovivan@yandex.ru">
          </div>
 
-         <div>
+         <div class="c1" style="margin-bottom: 1.6rem;">
             <label for="telephone"> Номер телефона* </label>
             <input type="tel" id="telephone" name="telephone" placeholder="+79263553223" required/>
          </div>
@@ -84,16 +85,16 @@
          
             <label for="time"> Удобное время для связи </label>
             <br>
-            <input type="checkbox" id="time" name="time" required /> Утро
+            <input type="checkbox" id="time" name="time" /> Утро
             <br>
-            <input type="checkbox" id="time" name="time" required /> День
+            <input type="checkbox" id="time" name="time" /> День
             <br>
-            <input type="checkbox" id="time" name="time" required /> Вечер
+            <input type="checkbox" id="time" name="time" /> Вечер
             <br>
-            <input type="checkbox" id="time" name="time" required /> Ночь
+            <input type="checkbox" id="time" name="time"/> Ночь
          
 
-         <div>
+         <div class="c1">
             <button type="submit" class="button_form"> Отправить</button>
          </div>
 
