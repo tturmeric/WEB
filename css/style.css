@@ -271,3 +271,14 @@ hr{
     padding-left: 1.6rem;
     padding-right: 1.6rem;
 }
+
+
+/*form.html*/
+
+.button_form{
+    padding: 1rem 2rem;
+    border: 0.1rem;
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-color: #959595;
+}
