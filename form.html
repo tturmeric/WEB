@@ -46,21 +46,42 @@
    </header>
   
   <main>
+   <form class="contact-form" action="https://httpbin.org/post" method="post">
       <div>
-        <label for="name"> Имя </label>
-        <input type="text" id="name" name="name" placeholder="" />
-     </div>
-     <div>
-        <label for="birth"> Дата рождения </label>
-        <input type="text" id="bith" placeholder="20.10.2000" />
-     </div>
-     <div>
-        <label for="password"> Пароль </label>
-        <input type="password" id="password" minlength="8" required />
-     </div>
-     <div>
-        <label for="name"> Имя </label>
-     </div>
+         <label for="name"> Имя </label>
+         <input type="text" id="name" name="name"  required>
+      </div>
+
+      <div>
+         <label for="date"> Дата рождения </label>
+         <input type="date" id="date" name="date"  required>
+      </div>
+
+      <div>
+         <label for="sex"> Пол </label>
+         <input type="radio" id="sex" name="sex" value="women" required> Жен
+         <input type="radio" id="sex1" name="sex" value="men" required> Муж
+   
+      </div>
+   
+
+      <label for="date"> Дата рождения </label>
+      <input type="date" id="date" name="date"  required>
+
+
+
+      <label for="email"> E-mail </label>
+      <input type="email" id="email" name="email"  required >
+
+
+      <label for="telephone"> Номер телефона </label>
+      <input type="tel" id="telephone" name="telephone"  required/>
+
+      <label for="name"> Имя </label>
+      <input type="text" id="name" name="name" required />
+    </form>
+
+ 
   </main>
   
    <footer class="contact7"> 
