@@ -285,3 +285,9 @@ hr{
 .c1{
    margin-top: 1.5rem ;
 }
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
