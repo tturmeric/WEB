@@ -414,12 +414,34 @@ hr{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   }
   
+
+  .g{
+    background-color: transparent;
+  }
   .p:active{
     background: rgb(214, 213, 213);
   }
 
+  .a2:hover{
+    background: rgb(214, 213, 213); 
+  }
 
- /* input[type="radio"]:checked + label {
-    font-weight: bold;
-    color: plum;} */
-  
+  .a2:active{
+    color:  red;
+  }
+
+  .a3:hover{
+    background: rgb(214, 213, 213); 
+  }
+
+  .a3:active{
+    color:  red;
+  }
+
+  .a:active{
+    color:  red;
+  }
+
+
+    input[type="radio"]:checked + label {
+    color: plum;} 
