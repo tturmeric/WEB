@@ -293,6 +293,7 @@ hr{
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-bottom: 0rem;
 }
 
 
@@ -363,5 +364,11 @@ hr{
 /*pseudo*/
 
 .footer_img {
-    transform: rotate(30deg) scale(1.5) skew(5deg, 5deg);
+    transform: rotate(30deg) scale(1.5) skew(1deg, 1deg);
+    margin-bottom: 1.5rem;
+  }
+
+  input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: plum;/* Измените цвет на нужный вам */
   }
