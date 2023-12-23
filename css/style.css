@@ -105,6 +105,7 @@ a{
     padding-right: 2.8rem;
     margin-bottom: 3.5rem;
     margin-top: 3.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease; 
 
 }
 
@@ -264,15 +265,28 @@ hr{
 .line{
     color: var(--color-footer);
 }
+
+
+/*rwd*/
+
 .wrapper {
     max-width: 117rem;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-/*rwd*/
-
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 
 
@@ -314,8 +328,6 @@ hr{
     padding-bottom: 1rem;
     margin-top: 1rem;
     padding-top: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
 /*grid.html*/
@@ -389,7 +401,15 @@ hr{
     margin-bottom: 1.5rem;
   }
 
-  input[type="radio"]:checked + label {
-    font-weight: bold;
-    color: plum;/* Измените цвет на нужный вам */
+  .a1:hover {
+    background-color: rgb(244, 234, 195);
+    transform: scale(1.1) rotate(10deg); 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   }
+  
+
+
+ /* input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: plum;} */
+  
