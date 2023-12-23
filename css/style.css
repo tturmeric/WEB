@@ -1,6 +1,12 @@
 :root{
     font-size: 62.5%;
 }
+
+::selection{
+    background-color: var(--color-footerback);
+    color: rgb(255, 169, 94);
+}
+
 header{
     max-width: 100%;
     margin-left: auto;
@@ -351,11 +357,7 @@ body > footer {
     padding: 1rem 2rem;
   }
 
-  input[type="checkbox"]:checked + label.checkbox-label
-  input[type="radio"]:checked + label.radio-label {
-    font-weight: bold;
-    color: rgb(255, 0, 0);
-  }
+
 /*grid.html*/
 
 .dashboard{
@@ -443,9 +445,6 @@ body > footer {
   .g{
     background-color: transparent;
   }
-  .p:active{
-    background: rgb(214, 213, 213);
-  }
 
   .a2:hover{
     background: rgb(214, 213, 213); 
@@ -467,11 +466,7 @@ body > footer {
     color:  red;
   }
 
+input:required {
+    outline: 0.3rem solid rgb(248, 145, 145);
+}
 
-    input[type="radio"]:checked + label {
-    color: plum;} 
-
-    input::placeholder {
-        color: #999; 
-        font-family: 'Raleway', sans-serif;
-      }
