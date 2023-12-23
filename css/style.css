@@ -304,8 +304,20 @@ hr{
     display: inline-flex;
     flex-direction: row;
     gap: 3rem;
-    padding-top: 3.5rem;
 }
+
+.main {
+    width: 60%; 
+    margin: 0 auto; 
+    text-align: center;
+    background-color:var(--color-footerback);
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
 /*grid.html*/
 
 .dashboard{
