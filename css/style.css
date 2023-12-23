@@ -298,6 +298,7 @@ hr{
     border-radius: 0.2rem;
     border-style: solid;
     border-color: #959595;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease; 
 }
 .c1{
    margin-top: 1.5rem ;
@@ -406,7 +407,16 @@ hr{
     transform: scale(1.1) rotate(10deg); 
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   }
+
+  .button_form:hover {
+    background-color: rgb(244, 234, 195);
+    transform: scale(1.1) rotate(10deg); 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
   
+  .p:active{
+    background: rgb(214, 213, 213);
+  }
 
 
  /* input[type="radio"]:checked + label {
