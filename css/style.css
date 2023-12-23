@@ -269,11 +269,7 @@ hr{
 
 /*rwd*/
 
-.wrapper {
-    max-width: 117rem;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .sr-only {
     position: absolute;
@@ -288,7 +284,21 @@ hr{
     overflow: hidden;
   }
 
+  @media screen and (min-width:320px){
+    .wrapper {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  } 
 
+  @media screen and (min-width:768px){
+    .wrapper {
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  } 
 
 /*form.html*/
 
@@ -329,6 +339,10 @@ hr{
     padding-bottom: 1rem;
     margin-top: 1rem;
     padding-top: 1.5rem;
+  }
+
+  .fr{
+    margin-bottom: 1.6rem;
   }
 
 /*grid.html*/
@@ -445,3 +459,8 @@ hr{
 
     input[type="radio"]:checked + label {
     color: plum;} 
+
+    input::placeholder {
+        color: #999; 
+        font-family: 'Raleway', sans-serif;
+      }

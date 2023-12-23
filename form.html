@@ -49,59 +49,72 @@
    <main class="main">
       <form class="contact-form" action="https://httpbin.org/post" method="post">
          <h2> Регистрация</h2>
-         <div class="c1">
-            <label for="name"> ФИ* </label>
-            <input type="text" id="name" name="name" placeholder="Иванов Иван" required>
-         </div>
 
-         <div class="c1">
-            <label for="date"> Дата рождения* </label>
-            <input type="date" id="date" name="date" required>
-         </div>
+         <label class="c1" for="name"> ФИO* 
+            <input type="text" id="name" name="name" placeholder="Иванов Иван Иванович" required>
+         </label>
 
-         <div class="c1">
-            <label for="sex"> Пол </label>
-            <input type="radio" id="sex" name="sex" value="women" > Жен
-            <input type="radio" id="sex1" name="sex" value="men" > Муж
-      
-         </div>
-      
-         <div class="c1">
-            <label for="password"> Пароль* </label>
-            <input type="password" id="password" name="password" placeholder="C6255c_v" required>
-
-         </div>
-
-         <div class="c1">
-            <label for="email"> E-mail </label>
-            <input type="email" id="email" name="email" placeholder="ivanovivan@yandex.ru">
-         </div>
-
-         <div class="c1" style="margin-bottom: 1.6rem;">
-            <label for="telephone"> Номер телефона* </label>
-            <input type="tel" id="telephone" name="telephone" placeholder="+79263553223" required/>
-         </div>
-
-         <div class="c1">
-            <label for="time"> Удобное время для связи </label>
-            <br>
-            <input type="checkbox" id="time" name="time" /> Утро
-            <br>
-            <input type="checkbox" id="time" name="time" /> День
-            <br>
-            <input type="checkbox" id="time" name="time" /> Вечер
-            <br>
-            <input type="checkbox" id="time" name="time"/> Ночь
          
-         </div>
+         <label class="c1" for="date"> Дата рождения* 
+            <input type="date" id="date" name="date" required>
+         </label>
+
+         <fieldset>
+            <legend>Пол</legend>
+
+            <label for="women">Жен
+               <input type="radio" id="women" name="sex" value="women">
+            </label>
+
+            <label for="men">Муж</label>
+               <input type="radio" id="men" name="sex" value="men">
+            </label>
+
+         </fieldset>
+  
+      
+         
+         <label class="c1" for="password"> Пароль* 
+            <input type="password" id="password" name="password" placeholder="C6255c_v" required>
+         </label>
+         
+
+        
+         <label class="c1" for="email"> E-mail
+            <input type="email" id="email" name="email" placeholder="ivanovivan@yandex.ru">
+         </label>
+
+         
+         <label class="c1" for="telephone"> Номер телефона* 
+            <input type="tel" id="telephone" name="telephone" placeholder="+79263553223" required/>
+         </label>
+
+         <fieldset>
+            <legend>Удобное время для связи</legend>
+
+            <label for="morning">Утро</label>
+               <input type="checkbox" id="morning" name="time" value="morning">
+            </label>
+    
+            <label for="day">День
+               <input type="checkbox" id="day" name="time" value="day">
+            </label>
+    
+            <label for="evening">Вечер
+               <input type="checkbox" id="evening" name="time" value="evening">
+            </label>
+            
+            <label for="night">Ночь
+               <input type="checkbox" id="night" name="time" value="night">
+            </label>
+         
+         </fieldset>
          
 
          <div class="c1 but_flex" >
             <button type="submit" class="button_form "> Отправить</button>
             <button type="reset" class="button_form "> Сбросить </button>
          </div>
-
-   
 
       </form>
 
