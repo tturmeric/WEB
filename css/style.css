@@ -331,7 +331,7 @@ body > footer {
     gap: 3rem;
 }
 
-/*.main {
+.main {
     width: 60%; 
     margin: 0 auto; 
     text-align: center;
@@ -339,7 +339,7 @@ body > footer {
     padding-bottom: 1rem;
     margin-top: 1rem;
     padding-top: 1.5rem;
-  }*/
+  }
 
   .fr{
     margin-bottom: 1.6rem;
