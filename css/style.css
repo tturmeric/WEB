@@ -345,6 +345,11 @@ hr{
     margin-bottom: 1.6rem;
   }
 
+  label{
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+  }
 /*grid.html*/
 
 .dashboard{
