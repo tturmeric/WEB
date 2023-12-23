@@ -222,7 +222,7 @@ img{
     margin-bottom: 8rem;
 }
 .contact7{
-    margin-top: 8rem;
+    margin-top: 4rem;
     padding-top: 5rem;
     padding-bottom: 2.5rem;
 }
@@ -290,13 +290,22 @@ hr{
 }
 
 .foot {
-    position: fixed;
+    position: sticky;
+    top: 100vh;
     bottom: 0;
     width: 100%;
-    padding-bottom: 0rem;
 }
 
+.body{
+    margin-bottom: 5rem;
+}
 
+.but_flex {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 3.5rem;
+}
 /*grid.html*/
 
 .dashboard{
