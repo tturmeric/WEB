@@ -49,6 +49,10 @@ p {
     font-family: 'M PLUS 1p', sans-serif;
 
 }
+span{
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
 .p {
     
     text-align: center;
@@ -470,3 +474,9 @@ input:required {
     outline: 0.3rem solid rgb(248, 145, 145);
 }
 
+input[type='radio']:checked{
+    color:  red;
+    font-weight: bold; 
+    text-decoration: underline;  
+  
+}
