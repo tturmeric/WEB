@@ -350,6 +350,12 @@ body > footer {
     margin-top: 1rem;
     padding: 1rem 2rem;
   }
+
+  input[type="checkbox"]:checked + label.checkbox-label
+  input[type="radio"]:checked + label.radio-label {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+  }
 /*grid.html*/
 
 .dashboard{
